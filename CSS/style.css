@@ -1,0 +1,54 @@
+
+body{
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    height: 670px;
+    background-image: url('assests/log.jpg');
+    background-size: cover; 
+    background-position: center;
+
+}
+form{
+    
+    background: rgb(254, 254, 254);
+    background: radial-gradient(circle, rgb(251, 250, 250) 4%, rgb(253, 254, 254) 94%);;
+}
+h1{
+    text-align: center;
+    font-size: 80px;
+    color: rgb(0, 0, 0);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-shadow: 2px 2px 2px rgb(233, 12, 115);
+}
+.button-1 {
+    background-color: #EA4C89;
+    border-radius: 8px;
+    border-style: none;
+    box-sizing: border-box;
+    color: #FFFFFF;
+    cursor: pointer;
+    display: inline-block;
+    font-family: "Haas Grot Text R Web", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    height: 40px;
+    line-height: 20px;
+    list-style: none;
+    margin: 0;
+    outline: none;
+    padding: 10px 16px;
+    position: relative;
+    text-align: center;
+    text-decoration: none;
+    transition: color 100ms;
+    vertical-align: baseline;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+  }
+  
+  .button-1:hover,
+  .button-1:focus {
+    background-color: #F082AC;
+  }

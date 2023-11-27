@@ -1,0 +1,108 @@
+.main {
+    padding: 20px;
+    font-family: 'Helvetica', serif;
+    box-shadow: 5px 5px 7px 5px #888888;
+}
+
+.main h1 {
+    font-size: 40px;
+    text-align: center;
+    font-family: 'Helvetica', serif;
+}
+
+input {
+    font-family: 'Helvetica', serif;
+    width: 100%;
+    font-size: 20px;
+    padding: 12px 20px;
+    margin: 8px 0;
+    border: none;
+    border-bottom: 2px solid #767474;
+}
+
+input[type=submit] {
+    font-family: 'Helvetica', serif;
+    width: 100%;
+    background-color: #767474;
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    margin: 4px 2px;
+    border-radius: 10px;
+}
+a {
+    font-family: 'Helvetica', serif;
+    text-decoration: none;
+    color: #1d1b1b;
+    margin-left: 35%;
+    height: 30px;
+    
+}
+body {
+    background-image: url("assests/OIP.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.box{
+    background-color: #ecdfdf;
+    width: 25%;
+    margin-left: 74%;
+    margin-top: 10%;
+    padding-left: 4%;
+    padding-bottom: 1%;
+    border-radius: 40px;
+    box-shadow: 5px 5px 7px 5px #9603f8;
+}
+h1 {
+    text-align: center;
+    color: #e67e22;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+  transition: text-shadow 0.3s ease;
+}
+h1:hover{
+    text-shadow: 4px 4px 6px rgba(0, 0, 0, 0.5);
+}
+label{
+    font-size: 20px;
+    font-family: 'Fantasy', serif;
+    color: #e203d0;
+    text-shadow: #9c0390 2px 2px 2px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    padding-top: 1%;
+    margin-left: 2%;
+   
+}
+input {
+    width: 20%;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    border-radius: 10px;
+    border: 2px solid #9c0390;
+    box-shadow: #9c0390 2px 2px 2px;
+    padding-left: 20%;
+    margin-left: 30%;
+    padding-left: 19%;
+    padding-right: 1%;
+}
+:placeholder-shown {
+    font-size: 20px;
+    font-family: 'Helvetica', serif;
+    color: #e203d0;
+    text-shadow: #9c0390 2px 2px 2px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    padding-top: 1%;
+    padding-left: 13%;
+    margin-left:33%;
+   
+}
+input[type=submit]
+{
+   width: 20%;
+   margin-left: 40%;
+    margin-top: 5%;
+}
